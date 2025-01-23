@@ -5,6 +5,9 @@ import { Cart } from '@/components/Cart';
 import { Dog } from '@/types';
 import { Header } from '@/components/Header';
 import { useRouter } from 'next/router';
+import { IDog } from '@/models/Dog';
+import { IInvoice } from '@/models/Invoice';
+import { CartItem, CustomerData } from '@/types';
 
 export default function StorePage() {
   const [searchQuery, setSearchQuery] = useState('');

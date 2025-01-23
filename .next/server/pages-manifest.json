@@ -1,9 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
-  "/payment-confirmation/[id]": "pages/payment-confirmation/[id].js",
-  "/invoice/success": "pages/invoice/success.js",
-  "/invoice/[id]": "pages/invoice/[id].js",
-  "/api/invoices/[id]": "pages/api/invoices/[id].js"
-}
+{"/_app":"pages/_app.js","/api/[...nextapi]":"pages/api/[...nextapi].js","/api/create-checkout-session":"pages/api/create-checkout-session.js","/_error":"pages/_error.js","/api/dogs":"pages/api/dogs.js","/api/invoices/[id]":"pages/api/invoices/[id].js","/api/seed":"pages/api/seed.js","/api/invoices":"pages/api/invoices.js","/api/verify-payment":"pages/api/verify-payment.js","/":"pages/index.html","/invoice/success":"pages/invoice/success.html","/invoice/[id]":"pages/invoice/[id].html","/payment-confirmation/[id]":"pages/payment-confirmation/[id].html","/store":"pages/store.html","/_document":"pages/_document.js","/404":"pages/404.html"}

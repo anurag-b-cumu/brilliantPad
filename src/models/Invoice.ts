@@ -1,4 +1,5 @@
 import mongoose, { Schema, Document } from 'mongoose';
+import { IDog } from './Dog';
 
 interface IInvoiceItem {
   dogId: mongoose.Types.ObjectId;

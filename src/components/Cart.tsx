@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { CartItem, CustomerData } from '@/types';
 import { useRouter } from 'next/router';
+import { IInvoice } from '@/models/Invoice';
 
 interface CartProps {
   items: CartItem[];

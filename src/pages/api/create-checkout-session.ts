@@ -1,7 +1,14 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { Stripe } from 'stripe';
 import connectDB from '@/lib/mongodb';
-import Invoice from '@/models/Invoice';
+import Invoice, { IInvoice } from '@/models/Invoice';
+import { IDog } from '@/models/Dog';
+
+interface InvoiceItem {
+  dogId: IDog;
+  quantity: number;
+  price: number;
+}
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2023-10-16',
@@ -26,7 +33,7 @@ export default async function handler(
     }
 
     const lineItems = [
-      ...invoice.items.map((item) => ({
+      ...invoice.items.map((item: InvoiceItem) => ({
         price_data: {
           currency: 'usd',
           product_data: {
