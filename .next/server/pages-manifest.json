@@ -1,13 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/store": "pages/store.js",
-  "/api/dogs": "pages/api/dogs.js",
-  "/api/invoices": "pages/api/invoices.js",
-  "/api/invoices/[id]": "pages/api/invoices/[id].js",
-  "/invoice/[id]": "pages/invoice/[id].js",
-  "/invoice/success": "pages/invoice/success.js",
-  "/payment-confirmation/[id]": "pages/payment-confirmation/[id].js"
-}
+{"/_app":"pages/_app.js","/_error":"pages/_error.js","/api/create-checkout-session":"pages/api/create-checkout-session.js","/api/dogs":"pages/api/dogs.js","/api/[...nextapi]":"pages/api/[...nextapi].js","/api/invoices/[id]":"pages/api/invoices/[id].js","/api/seed":"pages/api/seed.js","/api/invoices":"pages/api/invoices.js","/api/verify-payment":"pages/api/verify-payment.js","/":"pages/index.html","/invoice/[id]":"pages/invoice/[id].html","/invoice/success":"pages/invoice/success.html","/store":"pages/store.html","/payment-confirmation/[id]":"pages/payment-confirmation/[id].html","/_document":"pages/_document.js","/404":"pages/404.html"}
