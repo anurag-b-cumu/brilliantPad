@@ -1,0 +1,9 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/payment-confirmation/[id]": "pages/payment-confirmation/[id].js",
+  "/invoice/success": "pages/invoice/success.js",
+  "/invoice/[id]": "pages/invoice/[id].js",
+  "/api/invoices/[id]": "pages/api/invoices/[id].js"
+}
